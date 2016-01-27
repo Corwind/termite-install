@@ -11,6 +11,6 @@ sudo desktop-file-install termite.desktop
 sudo cp /usr/local/lib/libvte-2.91.a /usr/local/lib/libvte-2.91.la \
 /usr/local/lib/libvte-2.91.so /usr/local/lib/libvte-2.91.so.0 \
 /usr/local/lib/libvte-2.91.so.0.4000.2 /usr/lib
-sudo mkdir -p /lib/terminfo/x; ln -s \
-/usr/local/share/terminfo/x/xterm-termite \
-/lib/terminfo/x/xterm-termite
+sudo mkdir -p /lib/terminfo/x
+sudo mkdir /lib/terminfo/x/xterm-termite
+ln -s /usr/local/share/terminfo/x/xterm-termite /lib/terminfo/x/xterm-termite
