@@ -10,7 +10,7 @@ cd ../termite && make && sudo make install
 sudo desktop-file-install termite.desktop
 sudo cp /usr/local/lib/libvte-2.91.a /usr/local/lib/libvte-2.91.la \
 /usr/local/lib/libvte-2.91.so /usr/local/lib/libvte-2.91.so.0 \
-/usr/local/lib/libvte-2.91.so.0.4000.2 /usr/lib
+/usr/local/lib/libvte-2.91.so.0.4400.1 /usr/lib
 sudo mkdir -p /lib/terminfo/x; sudo ln -s \
 /usr/local/share/terminfo/x/xterm-termite \
 /lib/terminfo/x/xterm-termite
