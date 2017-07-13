@@ -30,7 +30,7 @@ RUN	cd vte-ng && ./autogen.sh && make && make install
 RUN	cd ../termite && make
 
 VOLUME	/target
-ENTRYPOINT ["cp", "termite/termite", "/target/"]
+ENTRYPOINT ["cp", "termite/termite", "termite/termite.desktop", "termite/termite.terminfo", "/target/"]
 
 ## to get termite, you can build and run this container:
 # docker build -t termite-install .
