@@ -13,6 +13,7 @@ sudo apt-get install -y \
 	libgnutls28-dev \
 	libgirepository1.0-dev \
 	libxml2-utils \
+	libtool\
 	gperf
 	
 git clone --recursive https://github.com/thestinger/termite.git
